@@ -14,11 +14,11 @@ public class App{
         System.out.println("\n----Attendence Report-----");
         System.out.println("Name:"+name);
         System.out.println("Attendence:"+percentage+"%");
-        if(percentage>=75){
-            System.out.println("Status:eligible");
+        if(percentage>=90){
+            System.out.println("Grade:excellent");
         }
         else{
-            System.out.println("Status:not eligible");
+            System.out.println("Grade:poor");
         }
     }
 }
